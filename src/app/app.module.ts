@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './components/app.component';
 import { DisplayItem } from './components/app.displayItem';
 import { DisplayArray } from './components/app.displayArray';
+import { EventBinding } from './components/app.eventBinding';
 
 @NgModule({
     imports: [
@@ -12,13 +13,15 @@ import { DisplayArray } from './components/app.displayArray';
     declarations: [
         AppComponent,
         DisplayItem,
-        DisplayArray
+        DisplayArray,
+        EventBinding
     ],
     
     bootstrap: [
         AppComponent,
         DisplayItem,
-        DisplayArray
+        DisplayArray,
+        EventBinding
     ]
 })
 
