@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './components/app.component';
+import { DisplayItem } from './components/app.displayItem';
+import { DisplayArray } from './components/app.displayArray';
 
 @NgModule({
     imports: [
@@ -8,11 +10,15 @@ import { AppComponent } from './components/app.component';
     ],
 
     declarations: [
-        AppComponent
+        AppComponent,
+        DisplayItem,
+        DisplayArray
     ],
     
     bootstrap: [
-        AppComponent
+        AppComponent,
+        DisplayItem,
+        DisplayArray
     ]
 })
 
